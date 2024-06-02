@@ -40,3 +40,13 @@
 
 - `db.flightData.findOne({distance: {$gt: 100}})`    - finds only first one
 ![alt text](image-10.png)
+
+
+-  `db.flightData.updateOne({ _id: ObjectId('665bf5867cd5f0d45ccdcdf9')}, {$set: {delayed:true}})` 
+![alt text](image-11.png)
+
+
+- `db.flightData.update({ _id: ObjectId('665bf5867cd5f0d45ccdcdf9')}, {$set: {delayed:false}})` 
+![alt text](image-12.png)
+
+- `replaceOne()` - safer way to replace data
