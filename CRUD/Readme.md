@@ -13,3 +13,17 @@
 ``db.flightData.find()`` --- to show all the contents in the table
 
 ![alt text](image.png)
+
+
+### ``CRUD OPERATIONS``
+ ![alt text](image-3.png)
+
+
+- `updateOne()`
+![alt text](image-4.png)
+
+- `updateMany()`
+![alt text](image-5.png)
+
+- `deleteMany()`
+![alt text](image-6.png)
