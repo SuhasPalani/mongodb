@@ -27,3 +27,16 @@
 
 - `deleteMany()`
 ![alt text](image-6.png)
+
+- `insertMany()`
+![alt text](image-7.png)
+
+-  `find` - filter
+![alt text](image-8.png)
+
+- ### `db.flightData.find({distance: {$gt: 10000}})`
+![alt text](image-9.png)
+
+
+- `db.flightData.findOne({distance: {$gt: 100}})`    - finds only first one
+![alt text](image-10.png)
