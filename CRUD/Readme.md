@@ -49,4 +49,4 @@
 - `db.flightData.update({ _id: ObjectId('665bf5867cd5f0d45ccdcdf9')}, {$set: {delayed:false}})` 
 ![alt text](image-12.png)
 
-- `replaceOne()` - safer way to replace data and the code remains the same
+- `replaceOne()` - safer way to replace data
