@@ -57,4 +57,4 @@
 ![alt text](image-14.png)
 
 
-- `db.passengers.find().forEach((passData) => {printjson(passData)})` - for react for large documents
+- `db.passengers.find().forEach((passData) => {printjson(passData)})` - for react for large documents 
