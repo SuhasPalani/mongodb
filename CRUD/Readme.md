@@ -50,3 +50,11 @@
 ![alt text](image-12.png)
 
 - `replaceOne()` - safer way to replace data
+
+
+- `db.passengers.find().toArray()` - this gives all the values in the document but find() gives only top 20
+![alt text](image-13.png)
+![alt text](image-14.png)
+
+
+- `db.passengers.find().forEach((passData) => {printjson(passData)})` - for react for large documents
