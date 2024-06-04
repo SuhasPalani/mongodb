@@ -69,3 +69,15 @@
 
 - `db.passengers.find({}, {name: 1, _id: 0})` - 1 if we need column, 0 if not needed
 ![alt text](image-16.png)
+
+
+
+- ` db.flightData.updateMany({}, {$set: {status: {decription: 'on-time', lastUpdated: '1 houir ago'}}})` - embedded documents
+![alt text](image-17.png)
+
+
+- ``
+
+- ``
+
+- ``
