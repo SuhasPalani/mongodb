@@ -86,4 +86,5 @@
 
 
 
-- ``
+- `db.passengers.find({hobbies: 'sports'})` - find thru keyword
+![alt text](image-21.png)
