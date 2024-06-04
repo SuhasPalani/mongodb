@@ -76,7 +76,10 @@
 ![alt text](image-17.png)
 
 
-- ``
+- `db.passengers.updateOne({name:'Albert Twostone'},{$set :{hobbies:['sports','cooking']}})` - working with arrays
+![alt text](image-18.png)
+
+![alt text](image-19.png)
 
 - ``
 
