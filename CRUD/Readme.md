@@ -88,3 +88,10 @@
 
 - `db.passengers.find({hobbies: 'sports'})` - find thru keyword
 ![alt text](image-21.png)
+
+
+- `db.flightData.find({"status.decription":'on-time'})` 
+![alt text](image-22.png)
+
+- `db.flightData.find({"status.detils.responsible":'Suhas Palani'})` - 
+![alt text](image-23.png)
