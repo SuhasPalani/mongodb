@@ -81,6 +81,9 @@
 
 ![alt text](image-19.png)
 
-- ``
+- `db.passengers.findOne({name: 'Albert Twostone'}).hobbies`
+![alt text](image-20.png)
+
+
 
 - ``
