@@ -64,3 +64,8 @@
 
 - `db.passengers.find({}, {name: 1})` - projection - filters columns
 ![alt text](image-15.png)
+
+
+
+- `db.passengers.find({}, {name: 1, _id: 0})` - 1 if we need column, 0 if not needed
+![alt text](image-16.png)
