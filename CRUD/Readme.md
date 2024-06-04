@@ -58,3 +58,9 @@
 
 
 - `db.passengers.find().forEach((passData) => {printjson(passData)})` - for react for large documents 
+
+
+
+
+- `db.passengers.find({}, {name: 1})` - projection - filters columns
+![alt text](image-15.png)
