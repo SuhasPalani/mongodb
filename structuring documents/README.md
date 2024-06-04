@@ -1,1 +1,1 @@
-### Structure Documents
+### Structuring the Documents
