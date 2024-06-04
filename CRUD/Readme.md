@@ -81,7 +81,7 @@
 
 ![alt text](image-19.png)
 
-- `db.passengers.findOne({name: 'Albert Twostone'}).hobbies`
+- `db.passengers.findOne({name: 'Albert Twostone'}).hobbies`  - accessing structure Data
 ![alt text](image-20.png)
 
 
