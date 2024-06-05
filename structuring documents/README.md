@@ -102,6 +102,6 @@ The provided command modifies the existing `posts` collection in MongoDB to incl
   validationAction: 'warn'
 });
 `
-
-
+#### summary
+![alt text](<WhatsApp Image 2024-06-04 at 19.33.19_18f60bdf.jpg>)
 
