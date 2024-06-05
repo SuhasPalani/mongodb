@@ -105,3 +105,14 @@ The provided command modifies the existing `posts` collection in MongoDB to incl
 #### summary
 ![alt text](<WhatsApp Image 2024-06-04 at 19.33.19_18f60bdf.jpg>)
 
+
+
+
+### Useful Resources & Links
+Helpful Articles/ Docs:
+
+- More Details about Config Files: https://docs.mongodb.com/manual/reference/configuration-options/
+
+- More Details about the Shell (mongo) Options: https://www.mongodb.com/docs/manual/reference/method/
+
+- More Details about the Server (mongod) Options: https://docs.mongodb.com/manual/reference/program/mongod/
