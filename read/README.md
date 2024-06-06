@@ -111,3 +111,7 @@ Generates a random float between 0 and 1.
 ### filter
 `db.tvshows.findOne({runtime: 60})`
 ![alt text](image.png)
+
+
+### cursors
+![alt text](IMG_20240606_151617696.jpg)
