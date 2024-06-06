@@ -5,3 +5,7 @@
 `$inc` - increment -> Update operator
 `$` -> projection operator
 
+
+#### Query selectors and projection operators
+![alt text](IMG_20240605_192121058.jpg)
+
