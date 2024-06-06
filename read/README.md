@@ -6,6 +6,11 @@
 `$` -> projection operator
 
 
-#### Query selectors and projection operators
+### Query selectors and projection operators
 ![alt text](IMG_20240605_192121058.jpg)
 
+
+
+### filter
+`db.tvshows.findOne({runtime: 60})`
+![alt text](image.png)
