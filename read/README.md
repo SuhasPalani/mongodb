@@ -115,3 +115,14 @@ Generates a random float between 0 and 1.
 
 ### cursors
 ![alt text](IMG_20240606_151617696.jpg)
+
+
+
+### Useful Resources & Links
+Helpful Articles/ Docs:
+
+- More on find(): https://docs.mongodb.com/manual/reference/method/db.collection.find/
+
+- More on Cursors: https://docs.mongodb.com/manual/tutorial/iterate-a-cursor/
+
+- Query Operator Reference: https://docs.mongodb.com/manual/reference/operator/query/
