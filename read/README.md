@@ -1,4 +1,4 @@
-### Read Operations- A closer Look
+### Read Operations-A closer Look
 - Query Selectors Comparison
 For comparison of different BSON type values, see the specified BSON comparison order.
 
