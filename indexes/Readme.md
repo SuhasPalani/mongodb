@@ -48,3 +48,20 @@ Additionally, sorting (via sort(...)) will also be sped up because you already h
 <hr>
 
 `db.persons.explain().find({"dob.age":35}).sort({gender: 1})`  - fetch to memory and sorts in ascending order
+
+
+
+- #### A partial filter expression in MongoDB creates an index that only includes documents matching a specified condition, optimizing storage and performance for queries frequently using that condition.
+
+<hr>
+<br>
+
+- The first command, db.persons.createIndex({"dob.age":1},{partialFilterExpression: {gender: "male"}}), creates a partial index on the dob.age field in the persons collection, but only for documents where the gender field is "male". This means the index will only include entries for documents that match this condition, which can save space and improve performance for queries that often filter by gender: "male" and dob.age.
+`db.persons.createIndex({"dob.age":1},{partialFilterExpression: {gender: "male"}})`
+
+
+
+
+
+- The second command, db.persons.find({"dob.age": {$gt:60}}), queries the persons collection to find all documents where the dob.age field is greater than 60. This query searches for individuals older than 60 years. If the previously mentioned partial index is the only index on dob.age, it won't be used for this query because the partial index only includes documents where gender is "male", while this query does not specify any condition on gender. If other relevant indexes are present, MongoDB might use those to optimize this query.
+`db.persons.find({"dob.age": {$gt:60}})`
