@@ -65,3 +65,25 @@ Additionally, sorting (via sort(...)) will also be sped up because you already h
 
 - The second command, db.persons.find({"dob.age": {$gt:60}}), queries the persons collection to find all documents where the dob.age field is greater than 60. This query searches for individuals older than 60 years. If the previously mentioned partial index is the only index on dob.age, it won't be used for this query because the partial index only includes documents where gender is "male", while this query does not specify any condition on gender. If other relevant indexes are present, MongoDB might use those to optimize this query.
 `db.persons.find({"dob.age": {$gt:60}})`
+
+
+### Time-To-Live
+In MongoDB, the Time-To-Live (TTL) feature allows you to specify a field in your documents that determines when the documents expire. This is particularly useful for data that has a limited lifespan, such as session data or temporary cache. Here's a sample document structure with a TTL index:
+
+```json
+{
+  "_id": ObjectId("5ed25f688612b94a9bc8c3cf"),
+  "username": "example_user",
+  "session_token": "abc123xyz",
+  "created_at": ISODate("2020-05-30T08:00:00Z"),
+  "expiry_at": ISODate("2020-05-30T09:00:00Z")
+}
+```
+
+To set up TTL for this document, you'd create an index on the `expiry_at` field and specify a TTL value in seconds. For example:
+
+```javascript
+db.sessions.createIndex({ "expiry_at": 1 }, { expireAfterSeconds: 3600 })
+```
+
+With this setup, MongoDB automatically removes documents from the collection when the `expiry_at` time is reached.
