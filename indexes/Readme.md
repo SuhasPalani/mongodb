@@ -43,3 +43,8 @@ Additionally, sorting (via sort(...)) will also be sped up because you already h
 `
 
 `db.persons.explain().find({"dob.age":35})`
+
+
+<hr>
+
+`db.persons.explain().find({"dob.age":35}).sort({gender: 1})`  - fetch to memory and sorts in ascending order
