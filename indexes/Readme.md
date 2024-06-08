@@ -135,3 +135,11 @@ Modelling Number/ Monetary Data in MongoDB: https://docs.mongodb.com/manual/tuto
 Useful Articles/ Docs:
 
 Official Docs on Transactions: https://docs.mongodb.com/manual/core/transactions/
+
+
+
+<hr>
+
+### Performance, fault tolerancy & deployment
+![alt text](IMG_20240607_230125359-2.jpg)
+
