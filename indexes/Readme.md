@@ -87,3 +87,14 @@ db.sessions.createIndex({ "expiry_at": 1 }, { expireAfterSeconds: 3600 })
 ```
 
 With this setup, MongoDB automatically removes documents from the collection when the `expiry_at` time is reached.
+
+
+
+### Useful Resources & Links
+Helpful Articles/ Docs:
+
+More on partialFilterExpressions: https://docs.mongodb.com/manual/core/index-partial/
+
+Supported default_languages: https://docs.mongodb.com/manual/reference/text-search-languages/#text-search-languages
+
+How to use different languages in the same index: https://docs.mongodb.com/manual/tutorial/specify-language-for-text-index/#create-a-text-index-for-a-collection-in-multiple-languages
