@@ -154,3 +154,12 @@ O/p- { ok: 1 }
 
 `db.capped.find().sort({$natural: -1})`
 ![alt text](image-3.png)
+
+
+
+- ### Useful Resources & Links
+Useful Articles/ Docs:
+
+Official Docs on Replica Sets: https://docs.mongodb.com/manual/replication/
+
+Official Docs on Sharding: https://docs.mongodb.com/manual/sharding/
