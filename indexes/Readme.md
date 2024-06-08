@@ -157,7 +157,7 @@ O/p- { ok: 1 }
 
 
 
-- ### Useful Resources & Links
+### Useful Resources & Links
 Useful Articles/ Docs:
 
 Official Docs on Replica Sets: https://docs.mongodb.com/manual/replication/
