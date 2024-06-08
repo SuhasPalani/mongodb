@@ -109,3 +109,12 @@ Helpful Articles/ Docs:
 Official Geospatial Docs: https://docs.mongodb.com/manual/geospatial-queries/
 
 Geospatial Query Operators: https://docs.mongodb.com/manual/reference/operator/query-geospatial/
+
+
+
+
+
+
+### Number Types
+
+![alt text](IMG_20240607_230125359.jpg)
