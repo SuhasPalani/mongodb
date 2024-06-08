@@ -143,3 +143,14 @@ Official Docs on Transactions: https://docs.mongodb.com/manual/core/transactions
 ### Performance, fault tolerancy & deployment
 ![alt text](IMG_20240607_230125359-2.jpg)
 
+
+
+`db.createCollection("capped", {capped:true, size:10000,max:3})`
+O/p- { ok: 1 }
+
+![alt text](image-2.png)
+
+
+
+`db.capped.find().sort({$natural: -1})`
+![alt text](image-3.png)
