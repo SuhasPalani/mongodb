@@ -2,6 +2,7 @@ const path = require('path');
 
 const express = require('express');
 const bodyParser = require('body-parser');
+const mongodb=require('mongodb').MongoClient;
 
 const productRoutes = require('./routes/products');
 const authRoutes = require('./routes/auth');
@@ -24,5 +25,7 @@ app.use((req, res, next) => {
 
 app.use('/products', productRoutes);
 app.use('/', authRoutes);
+
+mongodb.connect()
 
 app.listen(3100);
