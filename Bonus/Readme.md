@@ -16,7 +16,7 @@
 - ### Built-in role
 ![alt text](image.png)
 
-
+<hr>
 
 ### Useful Resources & Links
 Helpful Articles/ Docs:
